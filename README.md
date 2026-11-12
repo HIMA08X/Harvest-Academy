@@ -61,4 +61,4 @@ Fire it up using VS Code Live Server for the ultimate smooth experience:
 
 👨‍💻 Lead Developer Credit
 
-Designed, engineered, and brought to life with precision & creative power by [Ibrahim El-Sayed] (https://github.com/HIMA08X) — Lead Software Architect & Creator of Harvest Academy © 2026. All rights reserved.
+Designed, engineered, and brought to life with precision & creative power by [Ibrahim El-Sayed](https://github.com/HIMA08X) — Lead Software Architect & Creator of Harvest Academy © 2026. All rights reserved.
