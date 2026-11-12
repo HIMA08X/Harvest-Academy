@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvest Academy | Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <i class="fa-solid fa-code floating-decor-icon icon-left-1"></i>
+    <i class="fa-solid fa-database floating-decor-icon icon-left-2"></i>
+    <i class="fa-solid fa-fire floating-decor-icon icon-right-1"></i>
+    <i class="fa-solid fa-rocket floating-decor-icon icon-right-2"></i>
+
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-follower" id="cursor-follower">
+        <i class="fa-solid fa-arrow-pointer"></i>
+    </div>
+
+    <header>
+        <a href="index.html" class="logo interactive">
+            <img src="Harvest.png" alt="Harvest Academy Logo" class="logo-img" onerror="this.style.display='none'">
+            <span class="logo-text">Harvest <span>Academy</span></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="interactive">Home</a></li>
+            <li><a href="tracks.html" class="interactive">Tracks</a></li>
+            <li><a href="courses.html" class="interactive">Courses</a></li>
+            <li><a href="index.html#contact" class="interactive">Contact</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="register.html" class="btn-register interactive">Register</a>
+        </div>
+    </header>
+
+
+    <div class="auth-page-container">
+        <div class="auth-box">
+            <div class="section-title">
+                <h2>Welcome Back</h2>
+                <p>Login to access your personalized learning dashboard.</p>
+            </div>
+            <form onsubmit="event.preventDefault();">
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address" class="interactive" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" class="interactive" required>
+                </div>
+                <button type="submit" class="btn-primary interactive" style="width: 100%; justify-content: center; margin-top: 15px;">
+                    Sign In <i class="fa-solid fa-right-to-bracket"></i>
+                </button>
+            </form>
+            <p class="auth-redirect">Don't have an account? <a href="register.html" class="interactive">Register here</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo interactive" style="margin-bottom: 20px; display: inline-flex;">
+                    <img src="Harvest.png" alt="Harvest Academy Logo" class="logo-img" onerror="this.style.display='none'">
+                    <span class="logo-text">Harvest <span>Academy</span></span>
+                </a>
+                <p>Empowering software engineers with real-world development standards, intensive mentorship, and production-grade hands-on experience.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html" class="interactive">Home</a></li>
+                    <li><a href="tracks.html" class="interactive">Tracks</a></li>
+                    <li><a href="courses.html" class="interactive">Courses</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Top Tracks</h4>
+                <ul>
+                    <li><a href="tracks.html" class="interactive">Front-End Engineering</a></li>
+                    <li><a href="tracks.html" class="interactive">Back-End (.NET)</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get In Touch</h4>
+                <ul class="footer-contact-info">
+                    <li><i class="fa-solid fa-envelope"></i> contact@harvestacademy.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Harvest Academy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

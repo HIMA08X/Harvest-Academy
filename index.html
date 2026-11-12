@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvest Academy | Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <i class="fa-solid fa-code floating-decor-icon icon-left-1"></i>
+    <i class="fa-solid fa-database floating-decor-icon icon-left-2"></i>
+    <i class="fa-solid fa-laptop-code floating-decor-icon icon-left-3"></i>
+    <i class="fa-solid fa-terminal floating-decor-icon icon-left-4"></i>
+
+    <i class="fa-solid fa-fire floating-decor-icon icon-right-1"></i>
+    <i class="fa-solid fa-rocket floating-decor-icon icon-right-2"></i>
+    <i class="fa-solid fa-server floating-decor-icon icon-right-3"></i>
+    <i class="fa-solid fa-microchip floating-decor-icon icon-right-4"></i>
+
+
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-follower" id="cursor-follower">
+        <i class="fa-solid fa-arrow-pointer"></i>
+    </div>
+
+
+    <header>
+        <a href="index.html" class="logo interactive">
+            <img src="Harvest.png" alt="Harvest Academy Logo" class="logo-img" onerror="this.style.display='none'">
+            <span class="logo-text">Harvest <span>Academy</span></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active interactive">Home</a></li>
+            <li><a href="tracks.html" class="interactive">Tracks</a></li>
+            <li><a href="courses.html" class="interactive">Courses</a></li>
+            <li><a href="#contact" class="interactive">Contact</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="login.html" class="btn-login interactive">Login</a>
+            <a href="register.html" class="btn-register interactive">Register</a>
+        </div>
+    </header>
+
+
+    <section class="hero" id="home">
+        <div class="hero-text-side">
+            <h1>Build Your Tech Future <span>With Absolute Mastery</span></h1>
+            <p>An intensive, hands-on engineering journey empowering you for real-world industry roles alongside top software architects.</p>
+            <a href="tracks.html" class="btn-primary interactive">
+                Explore All Tracks <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="hero-image-side">
+            <div class="hero-image-container interactive">
+                <img src="Harvest.png" alt="Harvest Academy Platform" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <div class="ticker-wrapper interactive">
+        <div class="ticker-track">
+            <div class="ticker-item"><i class="fa-solid fa-bolt"></i> Over 85% of our graduates secured tech roles within 6 months</div>
+            <div class="ticker-item"><i class="fa-solid fa-fire-flame-curated"></i> Real-world portfolio projects built on production-grade standards</div>
+            <div class="ticker-item"><i class="fa-solid fa-code"></i> 1-on-1 code reviews with senior backend & frontend engineers</div>
+            <div class="ticker-item"><i class="fa-solid fa-user-ninja"></i> Dedicated career mentorship & mock interviews until you get hired</div>
+            <div class="ticker-item"><i class="fa-solid fa-bolt"></i> Over 85% of our graduates secured tech roles within 6 months</div>
+            <div class="ticker-item"><i class="fa-solid fa-fire-flame-curated"></i> Real-world portfolio projects built on production-grade standards</div>
+        </div>
+    </div>
+
+
+    <section id="about" class="dense-section">
+        <div class="section-title">
+            <h2>About The Academy</h2>
+            <p>Bridging academia and high-demand IT industry standards.</p>
+        </div>
+        <div class="cards-grid">
+            <div class="card-image-wrapper interactive">
+                <div class="card-img-container">
+                    <img src="images/Gemini_Generated_Image_qdz6bpqdz6bpqdz6.jpg" alt="Our Vision">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>Our Vision</h3>
+                        <p>To lead global tech learning by providing adaptive, practical, and highly engaging pathways that forge real software engineers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-image-wrapper interactive">
+                <div class="card-img-container">
+                    <img src="images/Gemini_Generated_Image_qdz6bpqdz6bpqdz2.jpg" alt="Our Mission">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>Our Mission</h3>
+                        <p>Equipping developers with modern frameworks, solid architecture patterns (Clean Architecture, CQRS), and production-grade execution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="dense-section">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>Have questions or ready to launch your engineering career?</p>
+        </div>
+        <div class="form-container">
+            <form onsubmit="event.preventDefault();">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Full Name" class="interactive" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email Address" class="interactive" required>
+                </div>
+                <div class="form-group">
+                    <select class="interactive" required>
+                        <option value="">Select Interested Track</option>
+                        <option value="frontend">Front-End Engineering</option>
+                        <option value="backend">Back-End Development (.NET)</option>
+                        <option value="fullstack">Full-Stack Solutions</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea rows="4" placeholder="Your Message or Inquiry" class="interactive"></textarea>
+                </div>
+                <button type="submit" class="btn-primary interactive" style="width: 100%; justify-content: center;">
+                    Submit Inquiry <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo interactive" style="margin-bottom: 20px; display: inline-flex;">
+                    <img src="Harvest.png" alt="Harvest Academy Logo" class="logo-img" onerror="this.style.display='none'">
+                    <span class="logo-text">Harvest <span>Academy</span></span>
+                </a>
+                <p>Empowering software engineers with real-world development standards, intensive mentorship, and production-grade hands-on experience.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon interactive"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon interactive"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="social-icon interactive"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon interactive"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html" class="interactive">Home Overview</a></li>
+                    <li><a href="tracks.html" class="interactive">All Tracks</a></li>
+                    <li><a href="courses.html" class="interactive">Featured Courses</a></li>
+                    <li><a href="#about" class="interactive">About Us</a></li>
+                    <li><a href="#contact" class="interactive">Contact Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Top Tracks</h4>
+                <ul>
+                    <li><a href="tracks.html" class="interactive">Front-End Engineering</a></li>
+                    <li><a href="tracks.html" class="interactive">Back-End (.NET)</a></li>
+                    <li><a href="tracks.html" class="interactive">Full-Stack Solutions</a></li>
+                    <li><a href="tracks.html" class="interactive">DevOps & Cloud</a></li>
+                    <li><a href="tracks.html" class="interactive">Flutter Mobile Dev</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Get In Touch</h4>
+                <ul class="footer-contact-info">
+                    <li><i class="fa-solid fa-location-dot"></i> El_Glaa, Mansoure, Egypt</li>
+                    <li><i class="fa-solid fa-envelope"></i> contact@harvestacademy.com</li>
+                    <li><i class="fa-solid fa-phone"></i> +20 100 000 0000</li>
+                    <li><i class="fa-solid fa-clock"></i> Sun - Thu: 9:00 AM - 6:00 PM</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Harvest Academy. Designed with precision & creative power.</p>
+            <div class="footer-bottom-links">
+                <a href="#" class="interactive">Privacy Policy</a>
+                <a href="#" class="interactive">Terms of Service</a>
+                <a href="#" class="interactive">Student Portal</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

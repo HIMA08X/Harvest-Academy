@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvest Academy | Featured Courses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <i class="fa-solid fa-code floating-decor-icon icon-left-1"></i>
+    <i class="fa-solid fa-database floating-decor-icon icon-left-2"></i>
+    <i class="fa-solid fa-laptop-code floating-decor-icon icon-left-3"></i>
+    <i class="fa-solid fa-terminal floating-decor-icon icon-left-4"></i>
+
+    <i class="fa-solid fa-fire floating-decor-icon icon-right-1"></i>
+    <i class="fa-solid fa-rocket floating-decor-icon icon-right-2"></i>
+    <i class="fa-solid fa-server floating-decor-icon icon-right-3"></i>
+    <i class="fa-solid fa-microchip floating-decor-icon icon-right-4"></i>
+
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-follower" id="cursor-follower">
+        <i class="fa-solid fa-arrow-pointer"></i>
+    </div>
+
+
+    <header>
+        <a href="index.html" class="logo interactive">
+            <img src="Harvest.png" alt="Harvest Academy Logo" class="logo-img" onerror="this.style.display='none'">
+            <span class="logo-text">Harvest <span>Academy</span></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="interactive">Home</a></li>
+            <li><a href="tracks.html" class="interactive">Tracks</a></li>
+            <li><a href="courses.html" class="active interactive">Courses</a></li>
+            <li><a href="index.html#contact" class="interactive">Contact</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="login.html" class="btn-login interactive">Login</a>
+            <a href="register.html" class="btn-register interactive">Register</a>
+        </div>
+    </header>
+
+    <section class="page-section">
+        <div class="section-title" style="margin-top: 140px;">
+            <h2>Featured Courses</h2>
+            <p>Explore our expanded premium curriculum designed for top-tier software engineers.</p>
+        </div>
+        
+        <div class="cards-grid">
+            <div class="card-image-wrapper interactive">
+                <span class="level-badge intermediate">Intermediate</span>
+                <div class="card-img-container">
+                    <img src="images/C_OPP.png" alt="C# & OOP Mastery">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>C# & OOP Mastery</h3>
+                        <p>Deep dive into Interfaces, Encapsulation, Polymorphism, LINQ querying concepts, and SOLID principles.</p>
+                    </div>
+                    <a href="register.html" class="card-action-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="card-image-wrapper interactive">
+                <span class="level-badge advanced">Advanced</span>
+                <div class="card-img-container">
+                    <img src="images/ASP.NET Core Web API.png" alt="ASP.NET Core Web API">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>ASP.NET Core Web API</h3>
+                        <p>Building scalable RESTful APIs, Clean Architecture, CQRS pattern, and EF Core performance tuning.</p>
+                    </div>
+                    <a href="register.html" class="card-action-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="card-image-wrapper interactive">
+                <span class="level-badge beginner">Beginner</span>
+                <div class="card-img-container">
+                    <img src="images/Modern Web UI Design.png" alt="Modern Web UI Design">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>Modern Web UI Design</h3>
+                        <p>Crafting interactive layouts, Glassmorphism, animations, responsive design, and CSS variables mastery.</p>
+                    </div>
+                    <a href="register.html" class="card-action-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="card-image-wrapper interactive">
+                <span class="level-badge advanced">Advanced</span>
+                <div class="card-img-container">
+                    <img src="images/React.png" alt="Advanced React Ecosystem">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>Advanced React Ecosystem</h3>
+                        <p>Building enterprise single-page applications using React Hooks, Context API, Redux Toolkit, and performance optimization.</p>
+                    </div>
+                    <a href="register.html" class="card-action-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="card-image-wrapper interactive">
+                <span class="level-badge intermediate">Intermediate</span>
+                <div class="card-img-container">
+                    <img src="images/Database Design & SQL Server.png" alt="Database Design & SQL Server">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>Database Design & SQL Server</h3>
+                        <p>Mastering relational database normalization, T-SQL queries, indexing strategies, stored procedures, and performance tuning.</p>
+                    </div>
+                    <a href="register.html" class="card-action-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="card-image-wrapper interactive">
+                <span class="level-badge advanced">Advanced</span>
+                <div class="card-img-container">
+                    <img src="images/Microservices & Cloud Architecture.png" alt="Microservices & Cloud Architecture">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>Microservices & Cloud Architecture</h3>
+                        <p>Designing distributed enterprise systems using Docker containerization, Kubernetes orchestration, and event-driven patterns.</p>
+                    </div>
+                    <a href="register.html" class="card-action-btn">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo interactive" style="margin-bottom: 20px; display: inline-flex;">
+                    <img src="Harvest.png" alt="Harvest Academy Logo" class="logo-img" onerror="this.style.display='none'">
+                    <span class="logo-text">Harvest <span>Academy</span></span>
+                </a>
+                <p>Empowering software engineers with real-world development standards, intensive mentorship, and production-grade hands-on experience.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon interactive"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon interactive"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="social-icon interactive"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon interactive"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html" class="interactive">Home Overview</a></li>
+                    <li><a href="tracks.html" class="interactive">All Tracks</a></li>
+                    <li><a href="courses.html" class="interactive">Featured Courses</a></li>
+                    <li><a href="index.html#contact" class="interactive">Contact Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Top Tracks</h4>
+                <ul>
+                    <li><a href="tracks.html" class="interactive">Front-End Engineering</a></li>
+                    <li><a href="tracks.html" class="interactive">Back-End (.NET)</a></li>
+                    <li><a href="tracks.html" class="interactive">Full-Stack Solutions</a></li>
+                    <li><a href="tracks.html" class="interactive">DevOps & Cloud</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get In Touch</h4>
+                <ul class="footer-contact-info">
+                    <li><i class="fa-solid fa-location-dot"></i> El_Glaa, Mansoure, Egypt</li>
+                    <li><i class="fa-solid fa-envelope"></i> contact@harvestacademy.com</li>
+                    <li><i class="fa-solid fa-phone"></i> +20 100 000 0000</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Harvest Academy. All Rights Reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#" class="interactive">Privacy Policy</a>
+                <a href="#" class="interactive">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
