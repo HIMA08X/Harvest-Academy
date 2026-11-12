@@ -4,7 +4,7 @@ Build Your Tech Future With Absolute Mastery
 
 "Excellence is not an act, but a production-grade habit." Welcome to the official repository of Harvest Academy — a high-end, multi-page software engineering platform built with ultra-scaled layout, modern glassmorphism, and interactive motion design under an elite Crimson Red aesthetic.
 
-🔥 What Makes This Project Epic? (The Vibe)
+🔥 What Makes This Project Epic? 
 
 🎨 Enterprise Crimson UI (#d90429): Deep crimson palettes, technical grid backgrounds, ambient glowing orbs, and dark contrast accents.
 
